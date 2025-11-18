@@ -1,0 +1,17 @@
+{
+  "name": "miniprojekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

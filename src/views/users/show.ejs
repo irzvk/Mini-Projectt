@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=Title %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <%- include('../partials/header'); %>
+
+    <main>
+        <article>
+            <h1><%= user.username %></h1>
+            <p class="meta">
+            Imię: <%= user.name %> <br> Wiek: <%= user.age %>
+            </p>
+            <img src="/img/doggo.jpg" alt="piesek">
+            <br>
+            <br>
+            <a href="/">Powrót</a>
+            <br>
+            <br>
+        </article>
+    </main>
+
+    <%- include('../partials/footer'); %>
+</body>
+</html>
